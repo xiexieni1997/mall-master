@@ -51,7 +51,7 @@ public class DemoController {
         return commonResult;
     }
 
-    @ApiOperation(value = "更新品牌1    ")
+    @ApiOperation(value = "更新品牌12    ")
     @RequestMapping(value = "/brand/update/{id}", method = RequestMethod.POST)
     @ResponseBody
     public CommonResult updateBrand(@PathVariable("id") Long id, @Validated @RequestBody PmsBrandDto pmsBrandDto) {
